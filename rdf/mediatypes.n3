@@ -1,0 +1,190 @@
+# Saved by TopBraid on Wed Oct 27 23:03:57 CEST 2010
+# baseURI: http://purl.org/ontology/mt/
+# imports: http://purl.org/dc/elements/1.1/
+# imports: http://www.w3.org/2004/02/skos/core
+# imports: http://purl.org/dc/terms/
+
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix mt:      <http://purl.org/ontology/mt/> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+mt:   rdf:type <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+      dc:creator <http://kurtisrandom.com/foaf.rdf#kurtjx> , <http://foaf.me/zazi#me> ;
+      dc:date "2010-10-27T15:19:51+01:00"^^xsd:dateTime ;
+      dc:description "This document includes currently some dcterms:MediaType individuals."@en ;
+      dc:title "Media Types"@en .
+
+mt:AudioFile
+      rdf:type <http://www.w3.org/2004/02/skos/core#Concept> , dcterms:MediaType ;
+      dc:description "An audio file, which may be available on a local file system or through http, ftp, etc."@en ;
+      dc:title "Audio file"^^xsd:string ;
+      skos:prefLabel "Audio file"^^xsd:string ;
+      skos:inScheme mt: .
+
+mt:BluRay
+      rdf:type <http://www.w3.org/2004/02/skos/core#Concept> , dcterms:PhysicalMedium ;
+      dc:title "Blu-ray"^^xsd:string ;
+      skos:prefLabel "Blu-ray"^^xsd:string ;
+      skos:inScheme mt: .
+
+mt:CD
+      rdf:type <http://www.w3.org/2004/02/skos/core#Concept> , dcterms:PhysicalMedium ;
+      dc:description "Compact Disc used as medium to record a musical manifestation."@en ;
+      dc:title "CD"^^xsd:string ;
+      dcterms:created "1982"^^xsd:gYear ;
+      skos:prefLabel "CD"^^xsd:string ;
+      skos:inScheme mt: .
+
+mt:Cartridge
+      rdf:type <http://www.w3.org/2004/02/skos/core#Concept> , dcterms:PhysicalMedium ;
+      dc:title "Cartridge"^^xsd:string ;
+      dcterms:created "1962"^^xsd:gYear ;
+      <http://www.w3.org/2004/02/skos/core#broader>
+              mt:MagneticTape ;
+      skos:prefLabel "Cartridge"^^xsd:string ;
+      skos:inScheme mt: .
+
+mt:Cassette
+      rdf:type <http://www.w3.org/2004/02/skos/core#Concept> , dcterms:PhysicalMedium ;
+      dc:title "Cassette"^^xsd:string ;
+      dcterms:created "1964"^^xsd:gYear ;
+      <http://www.w3.org/2004/02/skos/core#broader>
+              mt:MagneticTape ;
+      skos:prefLabel "Cassette"^^xsd:string ;
+      skos:inScheme mt: .
+
+mt:DAT
+      rdf:type <http://www.w3.org/2004/02/skos/core#Concept> , dcterms:PhysicalMedium ;
+      dc:description "Digital Audio Tape used as medium to record a musical manifestation."@en ;
+      dc:title "DAT"^^xsd:string ;
+      dcterms:created "1976"^^xsd:gYear ;
+      <http://www.w3.org/2004/02/skos/core#broader>
+              mt:MagneticTape ;
+      skos:prefLabel "DAT"^^xsd:string ;
+      skos:inScheme mt: .
+
+mt:DCC
+      rdf:type <http://www.w3.org/2004/02/skos/core#Concept> , dcterms:PhysicalMedium ;
+      dc:description "Digital Compact Cassette used as medium to record a musical manifestation."@en ;
+      dc:title "DCC"^^xsd:string ;
+      dcterms:created "1992"^^xsd:gYear ;
+      skos:prefLabel "DCC"^^xsd:string ;
+      skos:inScheme mt: .
+
+mt:DVD
+      rdf:type <http://www.w3.org/2004/02/skos/core#Concept> , dcterms:PhysicalMedium ;
+      dc:title "DVD"^^xsd:string ;
+      dcterms:created "1995"^^xsd:gYear ;
+      skos:prefLabel "DVD"^^xsd:string ;
+      skos:inScheme mt: .
+
+mt:DVDAudio
+      rdf:type <http://www.w3.org/2004/02/skos/core#Concept> , dcterms:PhysicalMedium ;
+      dc:description "DVD-Audio used as medium to record a musical manifestation."@en ;
+      dc:title "DVD-Audio"^^xsd:string ;
+      <http://www.w3.org/2004/02/skos/core#broader>
+              mt:DVD ;
+      skos:prefLabel "DVD-Audio"^^xsd:string ;
+      skos:inScheme mt: .
+
+mt:DVDVideo
+      rdf:type <http://www.w3.org/2004/02/skos/core#Concept> , dcterms:PhysicalMedium ;
+      dc:title "DVD-Video"^^xsd:string ;
+      <http://www.w3.org/2004/02/skos/core#broader>
+              mt:DVD ;
+      skos:prefLabel "DVD-Video"^^xsd:string ;
+      skos:inScheme mt: .
+
+mt:DigitalMedia
+      rdf:type <http://www.w3.org/2004/02/skos/core#Concept> , dcterms:MediaType ;
+      dc:title "Digital Media"^^xsd:string ;
+      skos:prefLabel "Digital Media"^^xsd:string ;
+      skos:inScheme mt: .
+
+mt:DualDisc
+      rdf:type <http://www.w3.org/2004/02/skos/core#Concept> , dcterms:PhysicalMedium ;
+      dc:title "DualDisc"^^xsd:string ;
+      dcterms:created "2004"^^xsd:gYear ;
+      skos:prefLabel "DualDisc"^^xsd:string ;
+      skos:inScheme mt: .
+
+mt:HDDVD
+      rdf:type <http://www.w3.org/2004/02/skos/core#Concept> , dcterms:PhysicalMedium ;
+      dc:title "HD-DVD"^^xsd:string ;
+      <http://www.w3.org/2004/02/skos/core#broader>
+              mt:DVD ;
+      skos:prefLabel "HD-DVD"^^xsd:string ;
+      skos:inScheme mt: .
+
+mt:LaserDisc
+      rdf:type <http://www.w3.org/2004/02/skos/core#Concept> , dcterms:PhysicalMedium ;
+      dc:title "LaserDisc"^^xsd:string ;
+      dcterms:created "1978"^^xsd:gYear ;
+      skos:prefLabel "LaserDisc"^^xsd:string ;
+      skos:inScheme mt: .
+
+mt:MagneticTape
+      rdf:type <http://www.w3.org/2004/02/skos/core#Concept> , dcterms:PhysicalMedium ;
+      dc:description "Magnetic analogue tape used as medium to record a musical manifestation."@en ;
+      dc:title "Magnetic Tape"^^xsd:string ;
+      dcterms:created "1928"^^xsd:gYear ;
+      skos:prefLabel "Magnetic Tape"^^xsd:string ;
+      skos:inScheme mt: .
+
+mt:MiniDisc
+      rdf:type <http://www.w3.org/2004/02/skos/core#Concept> , dcterms:PhysicalMedium ;
+      dc:description "MiniDisc used as medium to record a musical manifestation."@en ;
+      dc:title "MiniDisc"^^xsd:string ;
+      dcterms:created "1992"^^xsd:gYear ;
+      skos:prefLabel "MiniDisc"^^xsd:string ;
+      skos:inScheme mt: .
+
+mt:PianoRoll
+      rdf:type <http://www.w3.org/2004/02/skos/core#Concept> , dcterms:PhysicalMedium ;
+      dc:title "Piano Roll"^^xsd:string ;
+      dcterms:created "1883"^^xsd:gYear ;
+      skos:prefLabel "Piano Roll"^^xsd:string ;
+      skos:inScheme mt: .
+
+mt:ReelToReel
+      rdf:type <http://www.w3.org/2004/02/skos/core#Concept> , dcterms:PhysicalMedium ;
+      dc:title "Reel-to-reel"^^xsd:string ;
+      dcterms:created "1935"^^xsd:gYear ;
+      <http://www.w3.org/2004/02/skos/core#broader>
+              mt:MagneticTape ;
+      skos:prefLabel "Reel-to-reel"^^xsd:string ;
+      skos:inScheme mt: .
+
+mt:SACD
+      rdf:type <http://www.w3.org/2004/02/skos/core#Concept> , dcterms:PhysicalMedium ;
+      dc:description "Super Audio Compact Disc used as medium to record a musical manifestation."@en ;
+      dc:title "SACD"^^xsd:string ;
+      dcterms:created "1999"^^xsd:gYear ;
+      skos:prefLabel "SACD"^^xsd:string ;
+      skos:inScheme mt: .
+
+mt:Stream
+      rdf:type <http://www.w3.org/2004/02/skos/core#Concept> , dcterms:MediaType ;
+      dc:description "Transmission over a network  used as medium to broadcast a musical manifestation"@en ;
+      dc:title "Stream"^^xsd:string ;
+      skos:prefLabel "Stream"^^xsd:string ;
+      skos:inScheme mt: .
+
+mt:Vinyl
+      rdf:type <http://www.w3.org/2004/02/skos/core#Concept> , dcterms:PhysicalMedium ;
+      dc:description "Vinyl used as medium to record a musical manifestation"@en ;
+      dc:title "Vinyl"^^xsd:string ;
+      dcterms:created "1895"^^xsd:gYear ;
+      skos:prefLabel "Vinyl"^^xsd:string ;
+      skos:inScheme mt: .
+
+mt:WaxCylinder
+      rdf:type <http://www.w3.org/2004/02/skos/core#Concept> , dcterms:PhysicalMedium ;
+      dc:title "Wax Cylinder"^^xsd:string ;
+      dcterms:created "1877"^^xsd:gYear ;
+      skos:prefLabel "Wax Cylinder"^^xsd:string ;
+      skos:inScheme mt: .
+
