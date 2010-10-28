@@ -3,7 +3,6 @@
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:mt="http://purl.org/ontology/mt/"
-   xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -15,10 +14,6 @@
     <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-10-27T15:19:51+01:00</dc:date>
     <dc:description xml:lang="en">This document includes currently some dcterms:MediaType individuals.</dc:description>
     <dc:title xml:lang="en">Media Types</dc:title>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-    <owl:imports rdf:resource="http://purl.org/dc/elements/1.1/"/>
-    <owl:imports rdf:resource="http://purl.org/dc/terms/"/>
-    <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
   </skos:ConceptScheme>
   <skos:Concept rdf:about="http://purl.org/ontology/mt/AAC">
     <dc:description xml:lang="en">Advanced Audio Coding used as medium to record an audio manifestation.</dc:description>
