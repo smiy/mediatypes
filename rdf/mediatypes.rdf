@@ -719,6 +719,7 @@
     <skos:broader rdf:resource="http://purl.org/ontology/mt/Audio"/>
     <skos:inScheme rdf:resource="http://purl.org/ontology/mt/"/>
     <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vinyl record</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gramophone record</skos:altLabel>
   </dcterms:PhysicalMedium>
   <skos:Concept rdf:about="http://purl.org/ontology/mt/WAVE">
     <dc:description xml:lang="en">Waveform Audio File Format used as medium to record an audio manifestation.</dc:description>
@@ -751,5 +752,6 @@
     <skos:broader rdf:resource="http://purl.org/ontology/mt/Audio"/>
     <skos:inScheme rdf:resource="http://purl.org/ontology/mt/"/>
     <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wax cylinder</skos:prefLabel>
+    <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phonograph cylinder</skos:altLabel>
   </dcterms:PhysicalMedium>
 </rdf:RDF>

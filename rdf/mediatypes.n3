@@ -674,7 +674,8 @@ mt:VinylRecord
       dcterms:created "1895"^^xsd:gYear ;
       skos:broader mt:Audio ;
       skos:inScheme mt: ;
-      skos:prefLabel "vinyl record"^^xsd:string .
+      skos:prefLabel "vinyl record"^^xsd:string ;
+      skos:altLabel "gramophone record"^^xsd:string.
       
 dbpedia:Gramophone_record
       is:info_service isi:dbpedia .
@@ -715,7 +716,8 @@ mt:WaxCylinder
       dcterms:created "1877"^^xsd:gYear ;
       skos:broader mt:Audio ;
       skos:inScheme mt: ;
-      skos:prefLabel "wax cylinder"^^xsd:string .
+      skos:prefLabel "wax cylinder"^^xsd:string ;
+      skos:altLabel "phonograph cylinder"^^xsd:string.
       
 dbpedia:Phonograph_cylinder
       is:info_service isi:dbpedia .
