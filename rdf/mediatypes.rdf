@@ -669,13 +669,13 @@
     <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMD</skos:prefLabel>
   </skos:Concept>
   <dcterms:PhysicalMedium rdf:about="http://purl.org/ontology/mt/USBFlashDrive">
-    <dc:description xml:lang="en">USB Flash Drive used as medium to record manifestations.</dc:description>
-    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USB Flash Drive</dc:title>
+    <dc:description xml:lang="en">USB flash drive used as medium to record manifestations.</dc:description>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USB flash drive</dc:title>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2000</dcterms:created>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/USB_flash_drive"/>
     <skos:inScheme rdf:resource="http://purl.org/ontology/mt/"/>
-    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USB Flash Drive</skos:prefLabel>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USB flash drive</skos:prefLabel>
   </dcterms:PhysicalMedium>
   <dcterms:PhysicalMedium rdf:about="http://purl.org/ontology/mt/VCD">
     <dc:description xml:lang="en">Compact Disc Digital Video used as medium to record a video (and audio) manifestation.</dc:description>

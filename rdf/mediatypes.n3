@@ -618,11 +618,11 @@ dbpedia:Universal_Media_Disc
 mt:USBFlashDrive
       rdf:type dcterms:PhysicalMedium , skos:Concept ;
       rdfs:seeAlso dbpedia:USB_flash_drive ;
-      dc:description "USB Flash Drive used as medium to record manifestations."@en ;
-      dc:title "USB Flash Drive"^^xsd:string ;
+      dc:description "USB flash drive used as medium to record manifestations."@en ;
+      dc:title "USB flash drive"^^xsd:string ;
       dcterms:created "2000"^^xsd:gYear ;
       skos:inScheme mt: ;
-      skos:prefLabel "USB Flash Drive"^^xsd:string .
+      skos:prefLabel "USB flash drive"^^xsd:string .
       
 dbpedia:USB_flash_drive
       is:info_service isi:dbpedia .
@@ -675,7 +675,7 @@ mt:VinylRecord
       skos:broader mt:Audio ;
       skos:inScheme mt: ;
       skos:prefLabel "vinyl record"^^xsd:string ;
-      skos:altLabel "gramophone record"^^xsd:string.
+      skos:altLabel "gramophone record"^^xsd:string .
       
 dbpedia:Gramophone_record
       is:info_service isi:dbpedia .
@@ -717,7 +717,7 @@ mt:WaxCylinder
       skos:broader mt:Audio ;
       skos:inScheme mt: ;
       skos:prefLabel "wax cylinder"^^xsd:string ;
-      skos:altLabel "phonograph cylinder"^^xsd:string.
+      skos:altLabel "phonograph cylinder"^^xsd:string .
       
 dbpedia:Phonograph_cylinder
       is:info_service isi:dbpedia .
